@@ -1,0 +1,1 @@
+document.getElementsByClassName('Z0LcW')[0].addEventListener('click', function () { alert('i got clicked') });
