@@ -25,7 +25,6 @@ if(window.location.hostname == "www.google.com"){
 }
 
 if(window.location.hostname == "www.lyft.com"){
-  console.log(addressText);
   document.getElementById("destinationInput").value = addressText;
 
 
