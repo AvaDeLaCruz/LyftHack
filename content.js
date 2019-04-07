@@ -1,7 +1,6 @@
-var name = document.getElementsByClassName('Z0LcW')[0].innerHTML;
-
 document.getElementsByClassName('Z0LcW')[0].addEventListener("mouseover", function () {
   document.getElementsByClassName('Z0LcW')[0].style.color = "#EA0B8C";
+  document.getElementsByClassName('Z0LcW')[0].title = "Click here to request your ride!";
 
 });
 
