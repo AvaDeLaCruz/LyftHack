@@ -1,10 +1,22 @@
 var name = document.getElementsByClassName('Z0LcW')[0].innerHTML;
+
+document.getElementsByClassName('Z0LcW')[0].addEventListener("mouseover", function () {
+  document.getElementsByClassName('Z0LcW')[0].style.color = "#EA0B8C";
+
+});
+
+document.getElementsByClassName('Z0LcW')[0].addEventListener("mouseout", function () {
+  document.getElementsByClassName('Z0LcW')[0].style.color = "black";
+});
+
+
+
 document.getElementsByClassName('Z0LcW')[0].addEventListener('click', function () {
     document.body.innerHTML = `<html>
     <head>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-        <script type="text/javascript" src="http://fancybox.net/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
-        <link rel="stylesheet" type="text/css" href="http://fancybox.net/js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://fancybox.net/js/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://fancybox.net/js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
         <script>
             $(document).ready(function() {
 
@@ -29,4 +41,3 @@ document.getElementsByClassName('Z0LcW')[0].addEventListener('click', function (
     </body>
 </html>`;
 });
-
